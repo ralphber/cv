@@ -1,0 +1,42 @@
+body {
+  background-color: #B9F3FC;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 5px;
+  border-color: grey;
+  width:15%;
+}
+
+h1 {
+  color: #66BFBF;
+}
+
+h3 {
+  color: #66BFBF;
+}
+
+img {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+img:hover {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+
+
+/***************************CLASS SELECTOR***************************/
+
+.image {
+  border-radius: 50%;
+}
+
+
+/***************************ID SELECTOR***************************/
+
+#heading {
+  color: green;
+}
